@@ -1,0 +1,46 @@
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+  text-align: center;
+}
+
+.popup-conteudo {
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 60px;
+}
+
+.fechar {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.anterior, .proxima {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 60px;
+  padding: 10px;
+  user-select: none;
+  transform: translateY(-50%);
+}
+
+.anterior {
+  left: 20px;
+}
+
+.proxima {
+  right: 20px;
+}
