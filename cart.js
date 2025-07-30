@@ -60,7 +60,7 @@ function alterarQuantidade(element, valor) {
 }
 
 function EnviarMensagem() {
-  textoFinal = "Olá,%20gostaria%20de%20realizar%20o%20seguinte%20pedido:%0A";
+  textoFinal = "Olá,%20gostaria%20de%20realizar%20o%20seguinte%20pedido:%0A%0A";
   for (let i = 0; i < carrinho.length; i++) {
     textoFinal += carrinho[i].quantidade + "x%20" + carrinho[i].nome + "(R$%20" + carrinho[i].preco.toFixed(2).replace('.', ',') + ")%0A";
   }
