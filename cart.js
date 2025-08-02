@@ -13,7 +13,8 @@ function adicionarAoCarrinho(element, nome, preco) {
     }
     totalCarrinho += preco * quantidade;
     atualizarCarrinho();
-    element.parentElement.querySelector(".quantidadeProduto").innerText = 1
+    element.parentElement.querySelector(".quantidadeProduto").innerText = 1;
+    visibilidadeCarrinho(true);
 }
 
 function atualizarCarrinho() {
@@ -36,16 +37,26 @@ function atualizarCarrinho() {
     cartTotal.innerText = `Total: R$ ${totalCarrinho.toFixed(2).replace('.', ',')}`;
 }
 
-function toggleCarrinho(element) {
-    var cart = document.getElementById('cart');
-    var cartStyle = cart.style;
+function toggleCarrinho() {
+    var cartStyle = document.getElementById('cart').style;
 
     if (cartStyle.display === 'none' || cartStyle.display === '') {
-        cartStyle.display = 'block';
-        element.innerText = "Ocultar carrinho"
+        visibilidadeCarrinho(true);
     } else {
+        visibilidadeCarrinho(false);
+    }
+}
+
+function visibilidadeCarrinho(visible=true) {
+    var cartStyle = document.getElementById('cart').style;
+    var cartButton = document.getElementsByClassName("toggle-cart-btn")[0];
+
+    if (visible && cartStyle.display != 'block') {
+        cartStyle.display = 'block';
+        cartButton.innerText = "Ocultar carrinho";
+    } else if(!visible && (cartStyle.display != 'none' || cartStyle.display != '')) {
         cartStyle.display = 'none';
-        element.innerText = "Exibir carrinho"
+        cartButton.innerText = "Exibir carrinho";
     }
 }
 
