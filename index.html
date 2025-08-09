@@ -29,6 +29,7 @@
             <li><a href="#Queijos">Queijos</a></li>
             <li><a href="#Doces">Doces</a></li>
             <li><a href="#Bebidas">Bebidas</a></li>
+            <li><a href="#Diversos">Diversos</a></li>
         </ul>
         </nav>
     </header>
@@ -47,9 +48,9 @@
                 <img src="assets/products/queijos/queijo_minas.png" alt="Queijo meia cura" onclick="abrirPopup(['assets/products/queijos/queijo_minas.png'])">
                 <h2>Queijo meia cura</h2>
                 <p>O equilíbrio perfeito entre o frescor do queijo branco e a intensidade do curado! Com sabor marcante, textura macia por fora e levemente firme por dentro, é ideal para dar um toque especial a receitas ou ser saboreado puro. Uma explosão de sabor da roça direto para sua mesa!</p>
-                <p class="price" >R$ 55,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 55,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -63,9 +64,9 @@
                 <img src="assets/products/queijos/queijo_coalho.png" alt="Queijo coalho" onclick="abrirPopup(['assets/products/queijos/queijo_coalho.png'])">
                 <h2>Queijo coalho</h2>
                 <p>O clássico nordestino que conquista pelo sabor suave e textura firme! Perfeito para grelhar ou assar, derrete na medida certa e traz aquele gostinho irresistível de queijo na brasa. Tradicional, versátil e simplesmente delicioso!</p>
-                <p class="price" >R$ 55,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 55,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -79,9 +80,9 @@
                 <img src="assets/products/queijos/queijo_frescal.png" alt="Queijo frescal" onclick="abrirPopup(['assets/products/queijos/queijo_frescal.png'])">
                 <h2>Queijo frescal</h2>
                 <p>Leve, macio e super refrescante! Com sabor suave e textura delicada, é perfeito para acompanhar saladas, pães e aquele café da manhã especial. O toque natural que traz frescor e sabor direto da fazenda para sua mesa!</p>
-                <p class="price" >R$ 38,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 35,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -95,9 +96,9 @@
                 <img src="assets/products/queijos/queijo_nozinho.png" alt="Queijo nozinho" onclick="abrirPopup(['assets/products/queijos/queijo_nozinho.png'])">
                 <h2>Queijo nozinho</h2>
                 <p>O charme e sabor em cada laço! Feito com leite fresco, tem textura macia, sabor suave e é ideal para petiscar, acompanhar frutas ou deixar a mesa ainda mais bonita. Um verdadeiro mimo do sertão que encanta no primeiro pedaço!</p>
-                <p class="price" >R$ 34,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 34,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -111,9 +112,9 @@
                 <img src="assets/products/queijos/queijo_palito.png" alt="Queijo palito" onclick="abrirPopup(['assets/products/queijos/queijo_palito.png', 'assets/products/queijos/queijo_palito2.png'])">
                 <h2>Queijo palito</h2>
                 <p>Prático, saboroso e perfeito para qualquer hora! Com textura firme e sabor delicado, é ideal para grelhar, petiscar ou levar na lancheira. Uma explosão de simplicidade e gostosura que agrada todos os paladares!</p>
-                <p class="price" >R$ 35,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 35,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -121,6 +122,103 @@
                     </p>
                 </div>
                 <button onclick="adicionarAoCarrinho(this, 'Queijo palito', 35.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/queijos/queijo_minas_meia_cura_fracionado.png" alt="Queijo minas meia cura fracionado" onclick="abrirPopup(['assets/products/queijos/queijo_minas_meia_cura_fracionado.png'])">
+                <h2>Queijo minas meia cura fracionado</h2>
+                <p>Sabor suave e textura macia que derrete na boca, esse clássico artesanal é perfeito para lanches, pratos e petiscos. Uma experiência autêntica que traz o melhor da tradição mineira!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 38,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Queijo minas meia cura fracionado', 38.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/queijos/queijo_minas_padrao_zero_lactose.png" alt="Queijo minas padrão zero lactose" onclick="abrirPopup(['assets/products/queijos/queijo_minas_padrao_zero_lactose.png'])">
+                <h2>Queijo minas padrão zero lactose</h2>
+                <p>Sabor autêntico e cremoso, sem lactose para quem busca saúde e sabor. Ideal para lanches e receitas, oferece tradição e leveza em cada pedaço, perfeito para todos aproveitarem!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 55,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Queijo minas padrão zero lactose', 55.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/queijos/queijo_minas_padrao.png" alt="Queijo minas padrão" onclick="abrirPopup(['assets/products/queijos/queijo_minas_padrao.png'])">
+                <h2>Queijo minas padrão</h2>
+                <p>Sabor suave e textura macia, esse clássico mineiro é perfeito para qualquer ocasião. Ideal para lanches, petiscos ou receitas, traz a tradição e qualidade que conquistam paladares!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 50,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Queijo minas padrão', 50.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/queijos/queijo_provolone.png" alt="Queijo provolone" onclick="abrirPopup(['assets/products/queijos/queijo_provolone.png'])">
+                <h2>Queijo provolone</h2>
+                <p>Sabor marcante e aroma defumado, essa iguaria é perfeita para quem busca um toque especial nas receitas ou petiscos. Textura firme que derrete na boca, conquistando paladares exigentes!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 69,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Queijo provolone', 69.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/queijos/queijo_provolone_recheado.png" alt="Queijo provolone recheado" onclick="abrirPopup(['assets/products/queijos/queijo_provolone_recheado.png'])">
+                <h2>Queijo provolone recheado</h2>
+                <p>Sabor intenso e defumado com um recheio cremoso que surpreende a cada mordida! Perfeito para petiscos ou pratos especiais, une textura firme e recheio irresistível em uma explosão de sabor.</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 48,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Queijo provolone recheado', 48.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/queijos/queijo_tranca.png" alt="Queijo trança" onclick="abrirPopup(['assets/products/queijos/queijo_tranca.png'])">
+                <h2>Queijo trança</h2>
+                <p>Com sabor suave e defumado, esse trançado artesanal é perfeito para petiscar, servir ou surpreender! Uma delícia que une tradição, textura marcante e muito sabor em cada fio!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 45,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Queijo trança', 45.00)">Adicionar ao Carrinho</button>
             </div>
         </div>
     </section>
@@ -132,9 +230,9 @@
                 <img src="assets/products/doces/bananinha.png" alt="Bananinha" onclick="abrirPopup(['assets/products/doces/bananinha.png'])">
                 <h2>Bananinha</h2>
                 <p>Sabor caseiro que abraça o paladar! Feito com bananas maduras e açúcar no ponto certo, tem textura cremosa e um aroma irresistível. Perfeito para acompanhar queijos, torradas ou saborear puro. Uma doçura que tem gosto de infância e aconchego!</p>
-                <p class="price" >R$ 18,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 18,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -148,9 +246,9 @@
                 <img src="assets/products/doces/cocada.png" alt="Cocada" onclick="abrirPopup(['assets/products/doces/cocada.png'])">
                 <h2>Cocada</h2>
                 <p>Pedaço de puro sabor tropical! Feita com coco fresco e açúcar no ponto certo, tem textura macia por dentro e levemente crocante por fora. Um doce tradicional, cheio de personalidade, que traz o gostinho da roça em cada mordida!</p>
-                <p class="price" >R$ 39,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 39,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -166,9 +264,9 @@
                 <img src="assets/products/doces/goiabada.png" alt="Goiabada Cascão" onclick="abrirPopup(['assets/products/doces/goiabada.png'])">
                 <h2>Goiabada Cascão</h2>
                 <p>Tradição e sabor em forma de doçura! Com textura firme e sabor intenso da fruta, é perfeito para acompanhar queijos, cortar em pedacinhos ou saborear puro. Um clássico irresistível que traz o gostinho do interior para sua mesa!</p>
-                <p class="price" >R$ 18,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 18,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -184,9 +282,9 @@
                 <img src="assets/products/doces/doce_de_leite.png" alt="Doce de leite" onclick="abrirPopup(['assets/products/doces/doce_de_leite.png'])">
                 <h2>Doce de leite</h2>
                 <p>Macio, firme na medida e com sabor marcante! Feito no tacho, como manda a tradição, derrete na boca e tem aquele gostinho caseiro que aquece o coração. Um pedacinho do interior em cada mordida!</p>
-                <p class="price" >R$ 30,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 30,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -194,6 +292,70 @@
                     </p>
                 </div>
                 <button onclick="adicionarAoCarrinho(this, 'Doce de leite', 30.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/doces/doce_leite.png" alt="Doce de leite duas irmãs" onclick="abrirPopup(['assets/products/doces/doce_leite.png'])">
+                <h2>Doce de leite duas irmãs</h2>
+                <p>Irresistível e cremoso, o doce de leite no pote é puro carinho em cada colherada! Perfeito para saborear sozinho ou usar em receitas. Uma explosão de sabor que conquista todos os paladares!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 30,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Doce de leite duas irmãs', 30.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/doces/ambrosia.png" alt="Ambrosia" onclick="abrirPopup(['assets/products/doces/ambrosia.png'])">
+                <h2>Ambrosia</h2>
+                <p>Deliciosa e cremosa, a Ambrosia é o doce dos deuses! Feita com ovos, leite e açúcar, derrete na boca e encanta com seu sabor clássico e irresistível. Experimente essa tentação!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 35,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Ambrosia', 35.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/doces/doce_leite_ameixa.png" alt="Doce de leite com geleia de ameixa duas irmãs" onclick="abrirPopup(['assets/products/doces/doce_leite_ameixa.png'])">
+                <h2>Doce de leite com geleia de ameixa duas irmãs</h2>
+                <p>A cremosidade do leite se encontra com o toque levemente ácido da ameixa em uma combinação envolvente e deliciosa. Uma explosão de sabores que conquista já na primeira colherada!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 30,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Doce de leite com geleia de ameixa duas irmãs', 30.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/doces/cocada_artesanal.png" alt="Cocada artesanal" onclick="abrirPopup(['assets/products/doces/cocada_artesanal.png'])">
+                <h2>Cocada artesanal</h2>
+                <p>Feita com coco fresco e muito carinho, essa delícia artesanal traz o sabor autêntico da tradição em cada pedacinho. Doce, macia e irresistível como uma lembrança da infância!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 39,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Cocada artesanal', 39.00)">Adicionar ao Carrinho</button>
             </div>
         </div>
     </section>
@@ -206,9 +368,9 @@
                 <img src="assets/products/bebidas/cachaca_artesanal.png" alt="Cachaças artesanais" onclick="abrirPopup(['assets/products/bebidas/cachaca_artesanal.png'])">
                 <h2>Cachaças artesanais</h2>
                 <p>Pura, autêntica e com alma brasileira! Destilada com cuidado e tradição, traz sabor suave, aroma marcante e um toque de madeira que realça a experiência. Perfeita para ser apreciada pura ou na caipirinha.É Brasil em cada gole!</p>
-                <p class="price" >R$ 35,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 35,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -222,9 +384,9 @@
                 <img src="assets/products/bebidas/cachaca_banana.png" alt="Cachaça de banana" onclick="abrirPopup(['assets/products/bebidas/cachaca_banana.png'])">
                 <h2>Cachaça de banana</h2>
                 <p>Surpreendente, aromática e cheia de personalidade! Combina a tradição da cachaça artesanal com o toque doce e frutado da banana madura, resultando em uma bebida única e envolvente. Ideal para quem busca sabor inusitado com alma brasileira!</p>
-                <p class="price" >R$ 35,00</p>
-                <label for="quantidade">Quantidade:</label>
                 <div class="quantidade-container"> 
+                    <p class="price" >R$ 35,00</p>
+                    <label for="quantidade">Quantidade:</label>
                     <p class="quantity">
                         <button onclick="alterarQuantidade(this, -1)">-</button>
                         <span class="quantidadeProduto">1</span>
@@ -233,6 +395,61 @@
                 </div>
                 <button onclick="adicionarAoCarrinho(this, 'Cachaça de banana', 35.00)">Adicionar ao Carrinho</button>
             </div>
+        </div>
+    </section>
+
+    <section id="Diversos">
+        <h2>Diversos</h2>
+        <div class="container">
+
+            <div class="product-card">
+                <img src="assets/products/diversos/pururuca.png" alt="Pururuca" onclick="abrirPopup(['assets/products/bebidas/pururuca.png'])">
+                <h2>Pururuca</h2>
+                <p>Crocante, salgada e cheia de sabor, essa delícia é o petisco perfeito para qualquer ocasião. Estala na boca e conquista no primeiro pedaço. Uma explosão de textura e tradição!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 25,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Pururuca', 25.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/diversos/manteiga.png" alt="Manteiga minas delícia" onclick="abrirPopup(['assets/products/bebidas/manteiga.png'])">
+                <h2>Manteiga minas delícia</h2>
+                <p>Com sabor marcante e textura cremosa, essa delícia mineira transforma pães, torradas e receitas em verdadeiras experiências de sabor. Tradição e qualidade em cada colherada!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 25,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Manteiga minas delícia', 25.00)">Adicionar ao Carrinho</button>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/products/diversos/requeijao_norte.png" alt="Requeijão do norte fracionado" onclick="abrirPopup(['assets/products/bebidas/requeijao_norte.png'])">
+                <h2>Requeijão do norte fracionado</h2>
+                <p>Cremoso, levemente salgado e com um toque regional irresistível, esse sabor do Norte é perfeito para acompanhar pães, tapiocas e receitas. Uma explosão de tradição em cada pedaço!</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 55,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Requeijão do norte fracionado', 55.00)">Adicionar ao Carrinho</button>
+            </div>
+
         </div>
     </section>
 
