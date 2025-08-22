@@ -363,6 +363,22 @@
                 </div>
                 <button onclick="adicionarAoCarrinho(this, 'Cocada artesanal', 39.00)">Adicionar ao Carrinho</button>
             </div>
+
+            <div class="product-card">
+                <img src="assets/products/doces/pacoca.png" alt="Paçoca" onclick="abrirPopup(['assets/products/doces/pacoca.png'])">
+                <h2>Paçoca</h2>
+                <p>O irresistível docinho brasileiro feito com amendoim, açúcar e amor! Textura macia, sabor marcante e aquele gostinho de infância que derrete na boca.</p>
+                <div class="quantidade-container"> 
+                    <p class="price" >R$ 20,00</p>
+                    <label for="quantidade">Quantidade:</label>
+                    <p class="quantity">
+                        <button onclick="alterarQuantidade(this, -1)">-</button>
+                        <span class="quantidadeProduto">1</span>
+                        <button onclick="alterarQuantidade(this, 1)">+</button>
+                    </p>
+                </div>
+                <button onclick="adicionarAoCarrinho(this, 'Paçoca', 20.00)">Adicionar ao Carrinho</button>
+            </div>
         </div>
     </section>
 
